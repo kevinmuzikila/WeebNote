@@ -1,0 +1,81 @@
+{
+  "item": [
+    {
+      "id": "a1b2",
+      "title": "Weather Update",
+      "description": "Cloudy with a chance of rain in the evening.",
+      "type": "Weather",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "c3d4",
+      "title": "Library System",
+      "description": "Completed the search functionality for books.",
+      "type": "Project",
+      "date": "2024-07-27  12:19"
+    },
+    {
+      "id": "e5f6",
+      "title": "Movie Review",
+      "description": "Watched 'Inception' and loved the plot twists.",
+      "type": "Review",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "g7h8",
+      "title": "MERN Stack",
+      "description": "Learning how to integrate MongoDB with Express.",
+      "type": "Learning",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "i9j0",
+      "title": "UI/UX Improvement",
+      "description": "Redesigned the contact form for better user experience.",
+      "type": "Design",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "k1l2",
+      "title": "New Feature",
+      "description": "Implemented auto-pagination in the blog project.",
+      "type": "Development",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "m3n4",
+      "title": "Creative Arts",
+      "description": "Researching for the 'Mamma Mia!' project.",
+      "type": "Research",
+      "date": "2024-07-27 12:10"
+    },
+    {
+      "id": "o5p6",
+      "title": "Code Refactoring",
+      "description": "Optimized the main.js file for better performance.",
+      "type": "Optimization",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "q7r8",
+      "title": "Bug Fix",
+      "description": "Fixed the issue with the search bar in the header.",
+      "type": "Bug Fix",
+      "date": "2024-07-23 13:19"
+    },
+    {
+      "id": "s9t0",
+      "title": "New Location",
+      "description": "Weather app now initializes with New York City.",
+      "type": "Update",
+      "date": "2024-07-27 12:19"
+    },
+    {
+      "id": "d31c",
+      "title": "Semi Tee is the king",
+      "description": "he rules ama piano",
+      "type": "Projects",
+      "date": "2024-07-27 14:38"
+    }
+  ]
+}
