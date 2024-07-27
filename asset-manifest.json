@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/WeebNote/static/css/main.21fe6f1c.css",
-    "main.js": "/WeebNote/static/js/main.c164b45a.js",
+    "main.js": "/WeebNote/static/js/main.6a5a0d78.js",
     "index.html": "/WeebNote/index.html",
     "main.21fe6f1c.css.map": "/WeebNote/static/css/main.21fe6f1c.css.map",
-    "main.c164b45a.js.map": "/WeebNote/static/js/main.c164b45a.js.map"
+    "main.6a5a0d78.js.map": "/WeebNote/static/js/main.6a5a0d78.js.map"
   },
   "entrypoints": [
     "static/css/main.21fe6f1c.css",
-    "static/js/main.c164b45a.js"
+    "static/js/main.6a5a0d78.js"
   ]
 }
