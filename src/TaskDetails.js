@@ -4,11 +4,11 @@ import useFetch from "./useFetch";
 const TaskDetails = () => {
 
     const { id } = useParams();
-    const {data: item, isLoad, error } = useFetch('http://localhost:8000/item/' + id );
+    const {data: item, isLoad, error } = useFetch('https://servern-tyr6.onrender.com/item/' + id );
     const navigate = useNavigate();
 
     const handleDelete = () => {
-        fetch('http://localhost:8000/item/' + item.id , {
+        fetch('https://servern-tyr6.onrender.com/item/' + item.id , {
             method: "DELETE", 
         }).then(() => {
             navigate("/Home");

@@ -27,7 +27,7 @@ const Createitem = ({ addItem }) => {
 
     const item = { title, description, type, date: formattedDate };
 
-    fetch('http://localhost:8000/item', {
+    fetch('https://servern-tyr6.onrender.com/item', {
       method: 'POST', 
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(item)

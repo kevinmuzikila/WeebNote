@@ -1,4 +1,4 @@
-import Navbar from './Navebar';
+import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Createitem from './Createitem';
@@ -9,7 +9,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/item')
+    fetch('https://servern-tyr6.onrender.com/item')
       .then(res => res.json())
       .then(data => setItems(data))
       .catch(err => console.error('Failed to fetch items:', err));
@@ -20,7 +20,7 @@ function App() {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:8000/item/${id}`, {
+    fetch(`https://servern-tyr6.onrender.com/item/${id}`, {
       method: 'DELETE'
     }).then(() => {
       setItems(items.filter(item => item.id !== id));

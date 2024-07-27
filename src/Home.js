@@ -5,7 +5,7 @@ import useFetch from './useFetch';
 
 const Home = ({items}) => {
 
-const {data, isLoad, error } = useFetch("http://localhost:8000/item");
+const {data, isLoad, error } = useFetch("https://servern-tyr6.onrender.com/item");
 
     return (
     <div className="section">
